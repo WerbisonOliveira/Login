@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/Gerson_Alvarez.jpg');
+}
+
+main {
+    background-image: linear-gradient(to top, rgb(163, 163, 240), rgb(192, 91, 250));
+    color: black;
+    max-height: 420px;
+    min-width: 100px;
+    max-width: 400px;
+    margin: 100px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px rgba(43, 42, 42, 0.63);
+}
+
+main h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486);
+}
+
+#E-mail {
+    outline: none;
+    border: none;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1.05em;
+    padding-left: 0.2em;
+}
+
+#E-mail:focus {
+    border: 2px solid black;
+}
+
+#Senha {
+    outline: none;
+    border: none;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;;
+    color: black;
+    font-size: 1.05em;
+    padding-left: 0.2em;
+}
+
+#Senha:focus {
+    border: 2px solid black;
+}
+
+button {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(122, 35, 202);
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(142, 90, 190);
+    height: 220px;
+    width: 205px;
+    transition-duration: 0.3s;
+}
+
+a {
+    width: 130px;
+    margin: auto;
+    text-decoration: none;
+    color: blue;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(67, 67, 255);
+}
